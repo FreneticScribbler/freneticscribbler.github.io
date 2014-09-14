@@ -24,7 +24,7 @@
     </head>
 
     <body>
-        <?php include("includes/header.html"); ?>
+        <?php include("includes/navbar.html"); ?>
         
         <div class="container">
             <div class="starter-template">
