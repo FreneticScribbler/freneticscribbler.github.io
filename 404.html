@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="shortcut icon" href="">
-        <title>Uh oh!</title>
+        <title>Starter Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
@@ -24,15 +24,33 @@
     </head>
 
     <body>
-        <?php include("includes/navbar.html"); ?>
-        
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Arona Jones GCSE Art</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="404.html">Develop A01</a></li>
+                        <li><a href="404.html">Refine A02</a></li>
+                        <li><a href="recording.html">Record A03</a></li>
+                        <li><a href="404.html">Present A04</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
         <div class="container">
             <div class="starter-template">
-                <img src="http://www.ananseproductions.com/wp-content/uploads/2011/08/broken-clock.jpg">
                 <h1>Whoops! Something's broken</h1>
                 <h3>Got here from a internal link? Contact the author, <a href="mailto:warlordjones@gmail.com?Subject=Site%20Error">Arona   Jones</a>, to get this fixed</h3>
                 <h3>Otherwise, just hit back, or use the navbar to get out of here!</h3>
-                <h5>Image used without permission. Sourced from <a href="http://www.ananseproductions.com">here</a></h5>
             </div>
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
