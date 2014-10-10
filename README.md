@@ -3,4 +3,4 @@ warlordjones.github.io
 
 Website
 
-Custom CSS: https://gist.github.com/anonymous/c5e73a26784a1ebb14a1
+Custom CSS: http://getbootstrap.com/customize/?id=749fceff2660abb0cc95
