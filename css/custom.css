@@ -1,12 +1,17 @@
 .media {
-    width:55px;
+    width:60px;
     position: absolute;
-    top: 170px;
+    top: 200px;
     right: 0px;
     background-color: lightblue;
+    border: 5px;
+    border-color: white;
+    border-style: groove;
 }
 .media img {
     width: 40px;
     float: right;
     margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
