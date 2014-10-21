@@ -15,3 +15,5 @@
     margin-bottom: 5px;
     margin-top: 5px;
 }
+#leftcolumn { width: 50%; float: left}
+#rightcolumn { width: 50%; height: 100%; float: right}
