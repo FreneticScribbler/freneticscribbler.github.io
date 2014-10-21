@@ -1,0 +1,12 @@
+.media {
+    width:55px;
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    background-color: lightblue;
+}
+.media img {
+    width: 40px;
+    float: right;
+    margin-right: 5px;
+}
