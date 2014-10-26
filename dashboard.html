@@ -2,34 +2,17 @@
 <html lang="en">
 
 <head>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-40673160-2', 'auto');
-        ga('send', 'pageview');
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="">
-    <title>Arona Jones</title>
+    <title>Arona Jones - Forge Modding</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/main.min.css" rel="stylesheet">
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/custom.css">
 
     <!-- Custom styles for this template -->
     <style>
@@ -54,9 +37,27 @@
         }
     </script>
     <script src="//widget.battleforthenet.com/widget.min.js" async></script>
+
+    <script src="/javascripts/api.js"></script>
 </head>
 
 <body>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-40673160-2', 'auto');
+        ga('send', 'pageview');
+    </script>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -71,11 +72,11 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/art/index.html"><span class="glyphicon glyphicon-tint"></span>Art</a>
+                    <li><a href="/art/index.html">Art</a>
                     </li>
-                    <li><a href="forge.html"><span class="glyphicon glyphicon-wrench"></span>Forge Modding</a>
+                    <li><a href="forge.html">Forge Modding</a>
                     </li>
-                    <li><a href="webdesign.html"><span class="glyphicon glyphicon-list-alt"></span>Website Design</a>
+                    <li><a href="webdesign.html">Website Design</a>
                     </li>
                     <li><a href="dashboard.html">Dashboard</a>
                     </li>
@@ -85,17 +86,21 @@
         </div>
     </nav>
     <div class="container">
-        <h4>Websites I've Created:</h4>
-        <ul>
-            <li><a href="brassblocks.com">BrassBlocks</a>
-            </li>
-        </ul>
+        <script>
+            getJSON('https://api.github.com/users/warlordjones', write)
+
+            function write(data) {
+                document.getElementById("repos").innerHTML += "<p>" + data.public_repos + "</p>"
+            };
+        </script>
+        <div class="jumbotron" id="repos">
+            <p>Public Repositories:</p>
+            <span id="repos"></span>
+        </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- compiled and minified Bootstrap JavaScript -->
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="/javascripts/semantic.min.js"></script>
-</body>
 
-</html>
+</body>
