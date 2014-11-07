@@ -39,6 +39,8 @@
     <script src="//widget.battleforthenet.com/widget.min.js" async></script>
 
     <script src="/javascripts/api.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="analyticsCharts.js"></script>
 </head>
 
 <body>
@@ -93,9 +95,14 @@
                 document.getElementById("repos").innerHTML += "<p>" + data.public_repos + "</p>"
             };
         </script>
-        <div class="jumbotron" id="repos">
+        <div class="jumbotron" id="github">
+            <h3>Github</h3>
             <p>Public Repositories:</p>
             <span id="repos"></span>
+        </div>
+        <div class="jumbotron" id="google">
+            <h3>SteamCraft2 Downloads:</h3>
+            <!---Todo-->
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
