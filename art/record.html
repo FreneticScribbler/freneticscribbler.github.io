@@ -30,6 +30,7 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+    <script src="/javascripts/custom.js"></script>
 </head>
 
 <body>
@@ -283,7 +284,9 @@
             <div class="row">
                 <div class="col-xs-6 col-md-3">
                     <a href="#" class="thumbnail">
-                        <img src="/images/art/ai/clock1grad.jpg" alt="...">
+                        <img src="/images/art/ai/clock1grad.jpg" alt="..." style="cursor:pointer" onclick="showImage('/images/art/ai/clock1grad.jpg');">
+                        <div id="largeImgPanel" onclick="hideMe(this);">
+                            <img id="largeImg" style="height: 100%; margin: 0; padding: 0;"></div>
                     </a>
                 </div>
                 <div class="col-xs-6 col-md-3">
