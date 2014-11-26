@@ -23,3 +23,6 @@
     width: 50%;
     float: right
 }
+#background {
+    background-image: url("/images/art/back.jpeg");
+}
