@@ -27,3 +27,12 @@
     background-image: url("/images/art/back.jpeg");
     background-attachment: fixed
 }
+.shadow {
+    box-shadow: 10px 10px 10px #1C1C1C;
+}
+.rounded {
+    border-radius: 3px;
+}
+.padded {
+    padding: 20px;
+}
