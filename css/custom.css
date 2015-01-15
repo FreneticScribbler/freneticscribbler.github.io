@@ -25,7 +25,15 @@
 }
 #background {
     background-image: url("/images/art/back.jpeg");
-    background-attachment: fixed
+    background-attachment: fixed;
+}
+#backgroundtwo {
+    background-image: url("/images/art/back2.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+#backgroundthree {
+    background-image: radial-gradient(circle, #E6E1C7, #D64B12);
 }
 .shadow {
     box-shadow: 10px 10px 10px #1C1C1C;
