@@ -39,3 +39,7 @@
 .bordered {
     border: 2px solid #000;
 }
+.photothumb {
+    width: 180px;
+    height: 140px;
+}
