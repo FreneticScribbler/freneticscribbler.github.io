@@ -1,25 +1,21 @@
-.media {
-    width: 60px;
-    position: absolute;
-    top: 200px;
-    right: 0px;
-    background-color: lightblue;
-    border: 5px;
-    border-color: white;
-    border-style: groove;
-}
-.media img {
+.icon {
     width: 40px;
-    float: right;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+#columnwrapper {
+    display: flex;
 }
 #leftcolumn {
+    flex: 1;
     width: 50%;
     float: left
 }
 #rightcolumn {
+    flex: 1;
+    height: auto;
     width: 50%;
     float: right
 }
@@ -50,4 +46,12 @@
 .photothumb {
     width: 180px;
     height: 140px;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
 }
