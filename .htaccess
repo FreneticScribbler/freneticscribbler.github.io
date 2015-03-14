@@ -1,1 +1,4 @@
 ErrorDocument 404 http://warlordjones.github.io/404.html
+<IfModule headers_module>
+    header set X-Clacks-Overhead "GNU Terry Pratchett"
+</IfModule>
