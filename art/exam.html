@@ -34,6 +34,12 @@
         img {
             padding: 10px;
         }
+        
+        .block {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: grid;
+        }
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,345 +50,96 @@
 </head>
 
 <body>
+    <div style="position: fixed; background-color: #ca7; top: 0px; width: 100%">
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="#top">Top</a>
+            </li>
+            <li role="presentation"><a href="#photos">Photos</a>
+            </li>
+            <li role="presentation"><a href="#linework">Linework</a>
+            </li>
+            <li role="presentation"><a href="#gradiented">Gradiented</a>
+            </li>
+            <li role="presentation"><a href="#artist">Artist Link</a>
+            </li>
+        </ul>
+    </div>
     <div class="container-fluid">
         <div class="starter-template">
-            <h1>Together and Apart</h1>
-            <h2>Arona Jones (#1045)</h2>
-            <h2 class="ruled">Photos</h2>
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/1.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/1.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/2.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/2.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/3.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/3.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/4.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/4.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/5.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/5.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/6.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/6.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/7.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/7.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/8.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/8.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/9.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/9.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/10.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/10.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/11.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/11.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/12.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/12.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/13.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/13.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/14.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/14.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/15.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/15.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/16.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/16.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/16.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/16.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/17.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/17.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/18.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/18.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/19.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/19.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/20.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/20.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/21.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/21.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/22.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/22.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/23.JPG" alt="..." data-lightbox="photos">
-                            <img src="/images/art/23.JPG" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/24.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/24.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/25.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/25.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/26.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/26.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/27.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/27.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/28.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/28.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/29.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/29.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/30.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/30.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/31.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/31.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/32.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/32.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/33.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/33.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/34.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/34.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/35.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/35.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/36.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/36.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/37.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/37.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/38.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/38.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/39.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/39.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/40.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/40.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/41.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/41.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/42.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/42.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/43.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/43.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/44.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/44.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                        <a href="/images/art/45.jpg" alt="..." data-lightbox="photos">
-                            <img src="/images/art/45.jpg" alt="..." class="img-rounded photothumb">
-                        </a>
-                    </a>
-                </div>
+            <div id="top">
+                <h1 style="font-weight: 800; color: #222">Apart and Together</h1>
+                <h2>Arona Jones (#1045)</h2>
             </div>
-            <h2 class="ruled">Linework</h2>
-            <img src="/images/art/line-single.png" height="500px">
-            <img src="/images/art/line-double.png" height="500px">
-            <img src="/images/art/line-hand.png" height="500px">
-            <h2 class="ruled">Gradiented Images</h2>
-            <img src="/images/art/single.png" height="500px">
-            <img src="/images/art/double.jpg" height="500px">
-            <img src="/images/art/hand.jpg" height="500px">
-            <h2 class="ruled">Artist Link: Cyriak</h2>
-            <p></p>
+            <div id="photos">
+                <h2 class="ruled">Photos</h2>
+
+                <img src="/images/art/1.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/2.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/3.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/4.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/5.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/6.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/7.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/8.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/9.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/10.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/11.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/15.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/16.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/16.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/18.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/20.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/21.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/22.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/23.JPG" alt="..." class="img-rounded block">
+                <img src="/images/art/24.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/25.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/27.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/28.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/29.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/30.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/31.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/32.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/33.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/34.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/35.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/36.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/37.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/38.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/39.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/40.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/41.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/42.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/43.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/44.jpg" alt="..." class="img-rounded block">
+                <img src="/images/art/45.jpg" alt="..." class="img-rounded block">
+            </div>
+            <div id="linework">
+                <h2 class="ruled">Linework</h2>
+                <img src="/images/art/line-single.png" height="500px">
+                <img src="/images/art/line-double.png" height="500px">
+                <img src="/images/art/line-hand.png" height="500px">
+            </div>
+            <div id="gradiented">
+                <h2 class="ruled">Gradiented Images</h2>
+                <img src="/images/art/single.png" height="500px">
+                <img src="/images/art/double.jpg" height="500px">
+                <img src="/images/art/hand.jpg" height="500px">
+            </div>
+            <div id="artist">
+                <h2 class="ruled">Artist Link: Cyriak</h2>
+                <figure style="float: left">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cyriak_in_2010.jpg/220px-Cyriak_in_2010.jpg">
+                    <figcaption>Cyraik in 2010</figcaption>
+                </figure>
+                <p class="text-justify">Freelance animator and producer Cyriak Harris is known for his surrealist and often quite disturbing animated shorts. He uses a combination of Adobe Aftereffects and Photoshop to produce these. The vidoes display a distinct surrealist and psychidelic style, often based on fractual geometry and usually with a "distinct British theme". His animations often feature his hometown of Brighton, celebrities and television shows.
+                    <br>
+                    <br>He has been a regular contributor to b3ta, a digital art community launched in 2001, since 2004. He has had commissions from Coke, Sumo TV and other companies. He has also been director for various music vidoes. His Youtube account features a compilation of his animations, which have been noticed by many in the blogging world.
+                    <br>
+                    <br>His work also led to a short interview with BBC South East in November 2006. The BBC commissioned his video "DeadEnders" as a sequel to Cyriak's earlier "BeastEnders". Based on the British soap opera EastEnders it explored the idea of all the characters that have died in EastEnders going on a "brain-eating zombie rampage". Both of these films were featured on the BBC Three comedy series Comedy Shuffle.</p>
+                <h3>An example of his work:</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WQO-aOdJLiw" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
