@@ -80,17 +80,30 @@
         </div>
     </nav>
     <div class="header starter-template">
-        <h1>Global Threat Level Status Board:</h1>
-        <h2>Terror:</h2>
-        <h3>US Homeland Security Threat Level:</h3>
-        <script language="JAVASCRIPT1.1" src="http://www.terror-alert.com/alert/status.jsc?id=1">
-            < a href = "http://www.terror-alert.com" > < /a>
-        </script>
-        <h3>MI5 International Threat Level:</h3>
-        <img src="https://www.mi5.gov.uk/files/Global/Images/current-threat-sev.png">
-        <h2>Nuclear:</h2>
-        <h3>DEFCON (US):</h3>
-        <a href="http://www.defconwarningsystem.com" title="The DEFCON Warning System"><img src="http://www.defconwarningsystem.com/current/defcon.jpg?<?php echo rand(); ?>" border="0"></a>
+        <h1>Doomsday Status Board:</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>US Homeland Security Terror Threat Level:</h3>
+                <script language="JAVASCRIPT1.1" src="http://www.terror-alert.com/alert/status.jsc?id=1">
+                    < a href = "http://www.terror-alert.com" > < /a>
+                </script>
+            </div>
+            <div class="col-md-4">
+                <h3>MI5 International Terror Threat Level:</h3>
+                <!--- todo --->
+                <img src="https://www.mi5.gov.uk/files/Global/Images/current-threat-sev.png"></div>
+            <div class="col-md-4">
+                <h3>DEFCON (US):</h3>
+                <a href="http://www.defconwarningsystem.com" title="The DEFCON Warning System"><img src="http://www.defconwarningsystem.com/current/defcon.jpg?<?php echo rand(); ?>" border="0"></a></div>
+            <div class="col-md-4">
+                <h3>US Homeland Security Terror Alerts:</h3>
+                <iframe src="http://www.dhs.gov/ntas/" name="National Terrorism Advisory System" width="170" height="180" scrolling="no" frameborder="0" seamless border="0"></iframe>
+            </div>
+            <div class="col-md-4">
+                <h3>INFOCON:</h3>
+                <a href="https://isc.sans.edu"><img alt="Internet Storm Center Infocon Status" src="https://isc.sans.edu/images/status.gif"></a>
+            </div>
+        </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
