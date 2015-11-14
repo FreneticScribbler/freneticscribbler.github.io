@@ -81,27 +81,56 @@
     </nav>
     <div class="header starter-template">
         <h1>Doomsday Status Board:</h1>
+        <h2>Overall Status:</h2>
+        <svg height="200" width="200">
+            <circle cx="100" cy="100" r="80" stroke="gray" stroke-width="3" fill="yellow" />
+        </svg>
+        <h2>Terror Threats:</h2>
         <div class="row">
             <div class="col-md-4">
                 <h3>US Homeland Security Terror Threat Level:</h3>
-                <script language="JAVASCRIPT1.1" src="http://www.terror-alert.com/alert/status.jsc?id=1">
-                    < a href = "http://www.terror-alert.com" > < /a>
-                </script>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="gray" stroke-width="3" fill="yellow" />
+                </svg>
+                <h4 class="bg-warning">Elevated Risk</h4>
+            </div>
+            <div class="col-md-4">
+                <h3>DEFCON (US):</h3>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="gray" stroke-width="3" fill="green" />
+                </svg>
+                <h4 class="bg-success">DEFCON 5</h4>
             </div>
             <div class="col-md-4">
                 <h3>MI5 International Terror Threat Level:</h3>
-                <!--- todo --->
-                <img src="https://www.mi5.gov.uk/files/Global/Images/current-threat-sev.png"></div>
-            <div class="col-md-4">
-                <h3>DEFCON (US):</h3>
-                <a href="http://www.defconwarningsystem.com" title="The DEFCON Warning System"><img src="http://www.defconwarningsystem.com/current/defcon.jpg?<?php echo rand(); ?>" border="0"></a></div>
-            <div class="col-md-4">
-                <h3>US Homeland Security Terror Alerts:</h3>
-                <iframe src="http://www.dhs.gov/ntas/" name="National Terrorism Advisory System" width="170" height="180" scrolling="no" frameborder="0" seamless border="0"></iframe>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="gray" stroke-width="3" fill="orange" />
+                </svg>
+                <h4 class="bg-warning">Severe Risk</h4>
             </div>
             <div class="col-md-4">
+                <h3>US Homeland Security Terror Alerts:</h3>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="gray" stroke-width="3" fill="green" />
+                </svg>
+                <h4 class="bg-success">No current alerts</h4>
+            </div>
+            <div class="col-md-4">
+                <h3>Vigipirate (France):</h3>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="gray" stroke-width="3" fill="crimson" />
+                    <h4 class="bg-danger">State of Emergency</h4>
+                </svg>
+            </div>
+        </div>
+        <h2>Other:</h2>
+        <div class="row">
+            <div class="col-md-4">
                 <h3>INFOCON:</h3>
-                <a href="https://isc.sans.edu"><img alt="Internet Storm Center Infocon Status" src="https://isc.sans.edu/images/status.gif"></a>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="40" stroke="gray" stroke-width="3" fill="green" />
+                </svg>
+                <h4 class="bg-success">State normal</h4>
             </div>
         </div>
     </div>
