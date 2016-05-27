@@ -3,6 +3,7 @@
 
 <head>
     <link href='css/main.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -19,45 +20,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-        .pkt_added {
-            text-decoration: none !important;
+        body {
+            background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/flame.jpg?itok=pPD--dxy);
+            background-repeat: repeat-y;
+            background-size: cover;
+        }
+        .container {
+            padding: 25px;
+        }
+        .dark {
+            background-color: #121314;
+            padding: inherit;
+        }
+        .light {
+           background-color: #1c1c1f;
+            padding: inherit;
+        }
+        #overlay {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        h4 {
+            text-align: left;
+        }
+        p {
+            text-align: justify;
         }
     </style>
 </head>
 
 <body>
-    <script src="javascripts/jquery.connections.js"></script>
-    <script>
-        jQuery(document).ready(function () {
-            jQuery('#parent').connections({
-                to: "#child"
-            });
-        });
-    </script>
-    <div class="center" style="width: 100%; text-align: center; background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6e/Veil_Nebula_-_NGC6960.jpg); background-color: cover; box-shadow: 0px 30px 40px rgba(0,0,0,.6);">
+    <div id="overlay">
+    <div class="center" style="width: 100%; text-align: center;">
         <div class="center" style="height: 100%;
-padding-top: 100px;
-padding-bottom: 30px; 
-background-color: rgba(0, 0, 0, 0.5);">
+padding-top: 50px;
+padding-bottom: 50px;">
             <div class="container">
-                <!--TODO-->
-                <h1 style="fo">Arona Jones</h1>
-                <h3 style="font-weight: 400;
-margin-top: 0px;
-margin-bottom: -5px;"><span style="padding: 8px;">Developer  </span>•<span style="padding: 8px;">  Science Enthusiast  </span>•<span style="padding: 8px;">  Writer</span></h3>
-
+                <div class="light">
+                <img src="images/logo.png" style="height: 150px;" class="animated fadeInDown">
+                <h1 style="margin-top: -5px;">Arona Jones</h1>
+                <h3 style="font-weight: 400; margin-top: 0px; margin-bottom: -5px;">
+                <!---TODO This is a horrible mess!! --> 
+                <span style="padding: 8px;">Developer</span>•<span style="padding: 8px;">Science Enthusiast</span>•<span style="padding: 8px;">Writer</span></h3>
                 <br>
                 <div class="divider"></div>
+                </div>
+                <div class="dark">
+                <h4>About Me</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum auctor sapien ac tortor volutpat laoreet. Aenean eu augue ultricies, auctor magna vitae, vulputate enim. Duis quis enim nunc. Phasellus vitae eros metus. Aliquam quis elementum enim. Nulla suscipit sollicitudin sem at dictum. Sed eget imperdiet est, eget dignissim libero.</p>
+                </div>
+                <div class="light">
+                <h4>Credits</h4>
+                <p>Background image sourced from NASA and is free for use. A large part of the CSS is materialize by Google. Icon image is an edit of two icons from http://game-icons.net, under a Creative Commons License.</p>
+                </div>
             </div>
         </div>
     </div>
     <br>
-    <div class="container shadowed" style="background-color: #232323">
-        <div class="row center">
-            <div class="col s4">Test</div>
-            <div class="col s4" style="background-color: #3D3D3D">Test</div>
-            <div class="col s4">Test</div>
-        </div>
     </div>
 </body>
 
