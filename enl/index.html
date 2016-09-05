@@ -3,7 +3,7 @@
 
 <head>
     <link href='css/main.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
 
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,13 +21,41 @@
 
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 
+    <!---TODO This should be being inherited from the stylesheet. Why isn't it?--->
     <style>
         body {
-            background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/flame.jpg?itok=pPD--dxy);
+            background-image: url(http://orig08.deviantart.net/19de/f/2008/260/d/1/matrix_by_el_sobreviviente.jpg);
             background-attachment: fixed;
             background-size: cover;
             font-family: 'Arvo', serif !important;
             color: limegreen !important;
+        }
+        
+        .dark {
+            background-color: #121314;
+            padding: inherit;
+        }
+        
+        .light {
+            background-color: #1c1c1f;
+            padding: inherit;
+        }
+        
+        .container {
+            padding: 25px;
+        }
+        
+        h4 {
+            text-align: left;
+        }
+        
+        p {
+            text-align: justify;
+        }
+        
+        ol {
+            text-align: left;
+            font-size: 15px;
         }
     </style>
 
@@ -42,16 +70,35 @@
 padding-top: 50px;
 padding-bottom: 50px;">
                     <div class="container">
+                        <!--TODO switch to margins rather than <br> tags--->
                         <div class="light">
+                            <br>
                             <img src="/images/enl/logo.png" style="height: 150px;" class="animated zoomIn">
-                            <h1 style="margin-top: -5px;">Enlightened East Hertfordshire</h1>
+                            <br>
+                            <h1 style="margin-top: -5px;" class="animated fadeIn">Enlightened East Hertfordshire</h1>
                             <div class="divider"></div>
+                            <br>
                         </div>
+                        <!---TODO Animated code intro--->
                         <div class="dark">
+                            <h4>Information: </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla neque sapien, a molestie massa condimentum at. Sed faucibus commodo justo in aliquet. Vivamus eu placerat quam. Mauris aliquet, massa ut cursus ornare, odio ex convallis massa, a ullamcorper velit purus non ante. Quisque commodo posuere tristique. Phasellus ornare felis vel est rhoncus, quis faucibus odio mattis. Praesent ullamcorper enim in ipsum facilisis placerat. Nunc mattis, ligula in lobortis aliquet, dolor felis consectetur purus, eu molestie purus lacus non mi. Mauris vitae pharetra elit, blandit molestie nibh. Morbi quis est vestibulum, gravida diam fermentum, ultricies tortor. Praesent non diam sed lacus consectetur imperdiet. Curabitur in mattis lectus. </p>
                         </div>
                         <div class="light">
+                            <h4>Nemeses:</h4>
+                            <ol>
+                                <li>thurlingdrome</li>
+                                <li>ALGAE</li>
+                                <li>grawlfang</li>
+                                <li>mormor1971</li>
+                            </ol>
                         </div>
                         <div class="dark">
+                            <h4>Comms:</h4>
+                            <h5 style="color: red" class="animated flash">&lt;ACCESS DENIED. USER UNAUTHORISED.&gt;</h5>
+                        </div>
+                        <div class="light">
+                            <br>
                             <div class="center">
                                 <a href="http://materializecss.com/">Materialize CSS by Google</a>
                                 <br>
@@ -59,8 +106,12 @@ padding-bottom: 50px;">
                                 <br>
                                 <a href="http://cr0ybot.github.io/ingress-logos/">Logo</a>
                                 <br>
+                                <a href="http://orig08.deviantart.net/19de/f/2008/260/d/1/matrix_by_el_sobreviviente.jpg">Image</a>
+                                <br>
                             </div>
                             Handcoded by Arona Jones. Kindly hosted by Github.
+                            <br>
+                            <br>
                         </div>
                     </div>
                 </div>
