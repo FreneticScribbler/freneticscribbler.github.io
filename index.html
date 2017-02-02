@@ -1,71 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<link rel="prerender" href="https://oscarnardone.me">
-	<meta http-equiv="refresh" content="6;url=https://oscarnardone.me">
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-
-    <link rel='stylesheet' href='/css/main.css'>
-    <link rel="stylesheet" href="/css/animate.min.css">
-
-    <script src="http://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Arona Jones</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Oscar Nardone">
+	<meta name="description" content="Arona Jones' website, handmade by https://OscarNardone.me">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <style>
+        h1, h2, h3, p, a, li {
+            font-family: "Segoe UI", sans-serif;
+			color: #fff;
+        }
+        h1, h2, h3 {
+            font-weight: 200;
+			margin-bottom: 0.25rem;
+        }
         body {
-            background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/flame.jpg?itok=pPD--dxy);
+            background-color: #111;
+			background-image: url("images/flame.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			min-height: 100%;
+        }
+        .container {
+            margin: 2rem 4rem;
+            padding: 1rem;
+            background-color: #000;
+			background-color: rgba(24,24,24,0.8);
+        }
+        .tighttop {
+            margin-top: 0;
+        }
+        .tightbottom {
+            margin-bottom: 0;
+        }
+        ul {
+			margin-top: 0.25rem;
+        }
+		.centre {
+			text-align: center;
+			margin: 0 auto;
+		}
+        @media only screen and (max-width: 768px) {
+            .container {
+                margin: 1rem 0;
+                padding: 0.5rem;
+            }
         }
     </style>
-
-    <title>Arona Jones' Website - Main Page</title>
+	<link rel="prefetch" href="https://unchecky.com">
+	<link rel="prefetch" href="https://oscarnardone.me">
+	<link rel="prefetch" href="http://technicpack.net/modpack/craftmine.3370">
 </head>
 
 <body>
-    <div id="overlay">
-        <div class="center" style="width: 100%; text-align: center;">
-            <div class="center" style="height: 100%;
-padding-top: 50px;
-padding-bottom: 50px;">
-                <div class="container">
-                    <div class="grey darken-3">
-                        <img src="images/logo.png" style="height: 150px;" class="animated fadeInDown" alt="shield and top hat logo">
-                        <h1 style="margin-top: -5px;">Arona Jones</h1>
-                        <h3 style="font-weight: 400; margin-top: 0px; margin-bottom: -5px;">
-                <!---TODO This is a horrible mess!! --> 
-                <span style="padding: 8px;">Developer</span>•<span style="padding: 8px;">Science Enthusiast</span>•<span style="padding: 8px;">Writer</span></h3>
-                        <br>
-                        <hr>
-                    </div>
-                    <div class="grey darken-4">
-                        <h4>About Me</h4>
-                        <p class="flow-text">Self-styled Eccentric Gentleman. I'm passionate about science and writing, especially writing about science.</p>
-                    </div>
-                    <div class="grey darken-3">
-                    </div>
-                    <div class="grey darken-4">
-                        <div class="center">
-                            <a href="http://materializecss.com/">Materialize CSS by Google </a>|
-                            <a href="https://daneden.github.io/animate.css/"> Animate.css </a>|
-                            <a href="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/flame.jpg?itok=pPD--dxy"> Background Image from NASA IOTD </a>|
-                            <a href="htt://game-icons.net"> Icons from Game-Icons.net</a>
-                        </div>
-                        Handcoded by Arona Jones. Kindly hosted by Github.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
+    <div class="container">
+		<div class="centre">
+			<img src="images/logo.png" height="128px" style="height: 6rem;">
+			<h1 style="margin: 0.25rem; text-align: center;">Arona Jones</h1>
+			<h3 style="margin-top: 0.25rem; text-align: center;">Developer - Science Enthusiast - Writer</h2>
+		</div>
+		<p>Self-styled Eccentric Gentleman. I'm passionate about science and writing, especially writing about science.</p>
+		<h2>My works</h2>
+        <h2>Third-party stuff I recommend</h2>
+        <ul>
+            <li><a href="https://unchecky.com">Unchecky</a> - helps prevent one of the leading causes of malware and virus infection by automatically declining bundled offers in app installers.</li>
+			<li><a href="http://technicpack.net/modpack/craftmine.3370">CraftMine</a> - a top notch Minecraft-based game with overwhelmingly positive reviews but low recognition.</li>
+        </ul>
     </div>
+	<p style="position: absolute; bottom: 0px; background-color: rgba(0,0,0,0.33); padding: 0.5rem; margin: 0;">Handmade by <a href="https://oscarnardone.me">Oscar Nardone</a>. No third-party libraries or code were used. Oscar Nardone is not responsible for the content on this site.</p>
+	<script src="instantclick.min.js" data-no-instant></script>
+	<script data-no-instant>InstantClick.init();</script>
 </body>
-
 </html>
