@@ -1,6 +1,4 @@
-warlordjones.github.io
+Arona Jones' Website
 ======================
 
-Website
-
-Custom CSS: http://getbootstrap.com/customize/?id=749fceff2660abb0cc95
+See http://aronajones.com
