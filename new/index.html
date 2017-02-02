@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Welcome to Gadget Guy</title>
+	<meta charset="UTF-8">
 	<meta name="author" content="Oscar Nardone">
 	<meta name="description" content="Arona Jones' website, handmade by https://OscarNardone.me">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -12,11 +13,13 @@
         }
         h1, h2, h3 {
             font-weight: 200;
+			margin-bottom: 0.25rem;
         }
         body {
             background-color: #111;
 			background-image: url("flame.jpg");
 			background-size: cover;
+			background-attachment: fixed;
 			min-height: 100%;
         }
         .container {
@@ -32,8 +35,12 @@
             margin-bottom: 0;
         }
         ul {
-            list-style-type: none;
+			margin-top: 0.25rem;
         }
+		.centre {
+			text-align: center;
+			margin: 0 auto;
+		}
         @media only screen and (max-width: 768px) {
             .container {
                 margin: 1rem 0;
@@ -43,19 +50,25 @@
     </style>
 	<link rel="prefetch" href="https://unchecky.com">
 	<link rel="prefetch" href="https://oscarnardone.me">
+	<link rel="prefetch" href="http://technicpack.net/modpack/craftmine.3370">
 </head>
 
 <body>
     <div class="container">
-        <h1 style="margin-bottom: 0.25rem;">Arona Jones</h1>
-		<h3 style="margin-top: 0.25rem;">Developer • Science Enthusiast • Writer</h2>
+		<div class="centre">
+			<img src="logo.png" height="128px" style="height: 6rem;">
+			<h1 style="margin: 0.25rem; text-align: center;">Arona Jones</h1>
+			<h3 style="margin-top: 0.25rem; text-align: center;">Developer - Science Enthusiast - Writer</h2>
+		</div>
 		<p>Self-styled Eccentric Gentleman. I'm passionate about science and writing, especially writing about science.</p>
+		<h2>My works</h2>
         <h2>Third-party stuff I recommend</h2>
         <ul>
-            <li><a href="https://unchecky.com">Unchecky</a> - helps prevent one of the leading causes of malware and virus infection by automatically declining bundled offers in app installers. I usually used to install this on my client's PCs for them after doing a repair.</li>
+            <li><a href="https://unchecky.com">Unchecky</a> - helps prevent one of the leading causes of malware and virus infection by automatically declining bundled offers in app installers.</li>
+			<li><a href="http://technicpack.net/modpack/craftmine.3370">CraftMine</a> - a top notch Minecraft-based game with overwhelmingly positive reviews but low recognition.</li>
         </ul>
     </div>
-	<p style="position: absolute; bottom: 0px;">Handmade by <a href="https://oscarnardone.me">Oscar Nardone</a>. No third-party libraries or code were used.</p>
+	<p style="position: absolute; bottom: 0px; background-color: rgba(0,0,0,0.33); padding: 0.5rem; margin: 0;">Handmade by <a href="https://oscarnardone.me">Oscar Nardone</a>. No third-party libraries or code were used. Oscar Nardone is not responsible for the content on this site.</p>
 	<script src="instantclick.min.js" data-no-instant></script>
 	<script data-no-instant>InstantClick.init();</script>
 </body>
