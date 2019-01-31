@@ -1,4 +1,4 @@
 Arona Jones' Website
 ======================
 
-See http://aronajones.com
+See http://www.aronajones.com
