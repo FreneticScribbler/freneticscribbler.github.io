@@ -24,7 +24,6 @@ github_username:  FreneticScribbler
 
 # Build settings
 markdown: kramdown
-remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
 
